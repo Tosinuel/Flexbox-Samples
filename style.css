@@ -1,0 +1,73 @@
+/*The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary*/
+
+.flex-container-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+.flex-container-main > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/*The row value stacks the flex items horizontally (from left to right)*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  /*The column value stacks the flex items vertically (from top to bottom)*/
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+  }
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container3 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: DodgerBlue;
+  }
+  .flex-container3 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  /*The column-reverse value stacks the flex items vertically (but from bottom to top)*/
+  .flex-container4 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: DodgerBlue;
+  }
+  .flex-container4 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
