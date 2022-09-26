@@ -1,5 +1,6 @@
-/*The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary*/
+h1 {text-align: center;}
 
+/*The "flex-wrap: wrap;" specifies that the flex items will wrap if necessary*/
 .flex-container-main {
   display: flex;
   flex-wrap: wrap;
